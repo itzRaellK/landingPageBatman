@@ -1,0 +1,17 @@
+.galery {
+    padding: 10vw 5.5vw;
+
+    &__images {
+        display: flex;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        &__image {
+            max-width: 330px;
+            width: 100%;
+            margin-bottom: 50px;
+            border-radius: 2px;
+        }
+    }
+}

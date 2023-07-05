@@ -1,0 +1,32 @@
+@use 'variables';
+
+.cast {
+    padding: 3vw 5.5vw;
+    margin-top: -50px;
+    height: 130vh;
+
+    background-color: variables.$buttonPrimaryColor;
+
+    &__actors {
+        max-width: 1300px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 200px;
+
+        &__actor {
+            margin-bottom: -120px;
+            width: 200px;
+            height: 300px;
+
+            .images {
+                height: 100%;
+                width: 100%;
+            }
+
+            .text-secondary {
+                text-align: center;
+            }
+        }
+    }
+}

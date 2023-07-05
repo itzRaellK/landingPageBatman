@@ -1,0 +1,43 @@
+@use 'variables';
+@use 'header';
+@use 'hero';
+@use 'resume';
+@use 'cast';
+@use 'galery';
+@use 'watch';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-transform: uppercase;
+    font-family: variables.$fontStandard;
+}
+
+body {
+    background-color: variables.$backgroundPrimaryColor;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+.text-primary {
+    color: variables.$textPrimaryColor;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.text-secondary {
+    color: variables.$textSecondaryColor;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+.resume {
+    padding: 15vw 5.5vw;
+
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+
+        display: flex;
+
+        &__image {
+            height: 500px;
+        }
+
+        &__resume {
+            padding: 13vw 5vw;
+            text-align: justify;
+        }
+    }
+}
