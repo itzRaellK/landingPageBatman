@@ -1,22 +1,39 @@
 @use 'variables';
 
 .header {
-    max-width: 1400px;
+    max-width: 1250px;
     width: 100%;
+    padding: 1vw 5.5vw;
+    display: flex;
+    justify-content: space-between;
 
-    &__container {
-        padding: 0 20px;
-        display: flex;
-        justify-content: space-between;
+    @media (max-width: 767px) {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+        padding: 5vw 26vw;
     }
 
     &__logo {
         max-width: 110px;
         width: 100%;
+
+        @media (max-width: 767px) {
+            max-width: 200px;
+            width: 100%;
+            margin: 50px -30px 50px;
+        }
     }
 
     &__links {
+        right: 0;
         display: flex;
+
+        @media (max-width: 767px) {
+            max-width: 110px;
+            display: block;
+            margin-left: 5px;
+        }
 
         &__item {
             padding: 10px 14px;
@@ -26,6 +43,10 @@
 
             .button {
                 color: variables.$textSecondaryColor;
+
+                @media (max-width: 767px) {
+                    font-size: 13px;
+                }
             }
 
             &:hover {

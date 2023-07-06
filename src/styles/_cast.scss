@@ -5,6 +5,11 @@
     margin-top: -50px;
     height: 130vh;
 
+    @media (max-width: 767px) {
+        padding: 20vw 2vw;
+        height: 100vh;
+    }
+
     background-color: variables.$buttonPrimaryColor;
 
     &__actors {
@@ -14,10 +19,23 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 200px;
 
+        @media (max-width: 767px) {
+            max-width: 320px;
+            width: 90%;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+
         &__actor {
             margin-bottom: -120px;
             width: 200px;
             height: 300px;
+
+            @media (max-width: 767px) {
+                margin-bottom: 50px;
+                width: 150px;
+                height: 200px;
+            }
 
             .images {
                 height: 100%;

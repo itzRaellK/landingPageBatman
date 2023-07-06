@@ -1,19 +1,40 @@
 .resume {
     padding: 15vw 5.5vw;
 
+    @media (max-width: 767px) {
+        padding: 10vw 2vw;
+        margin: 50px 0;
+    }
+
     &__content {
         max-width: 1200px;
         width: 100%;
-
         display: flex;
+
+        @media (max-width: 767px) {
+            max-width: 310px;
+            width: 100%;
+            display: block;
+        }
 
         &__image {
             height: 500px;
+
+            @media (max-width: 767px) {
+                max-width: 400px;
+                height: 380px;
+                margin-left: 50px;
+            }
         }
 
         &__resume {
             padding: 13vw 5vw;
             text-align: justify;
+
+            @media (max-width: 767px) {
+                padding: 5vw 0vw;
+                font-size: 10px;
+            }
         }
     }
 }

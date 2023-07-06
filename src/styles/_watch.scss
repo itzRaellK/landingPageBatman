@@ -4,6 +4,11 @@
     padding-left: 5.5vw;
     padding-bottom: 8vw;
 
+    @media (max-width: 767px) {
+        padding: 1vw 2vw;
+        margin-bottom: 50px;
+    }
+
     &__online {
         background-image: url('../../dist/images/banner.jpg');
         width: 1300px;
@@ -12,6 +17,10 @@
         background-repeat: no-repeat;
         display: flex;
         position: relative;
+
+        @media (max-width: 767px) {
+            width: 310px;
+        }
         
 
         .button {
@@ -24,6 +33,12 @@
 
             &:hover {
                 background-color: variables.$buttonSecondaryColor;
+            }
+
+            @media (max-width: 767px) {
+                margin: 0vw;
+                padding: 2px 2px;
+                font-size: 10px;
             }
         }
     }

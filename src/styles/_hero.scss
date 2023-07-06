@@ -6,7 +6,21 @@
     text-align: left;
     background-size: cover;
 
+    @media (max-width: 767px) {
+        padding: 14vw 2vw;
+        height: 30vh;
+        margin-top: 100px;
+    }
+
     &__content {
+
+        @media (max-width: 767px) {
+            max-width: 180px;
+
+            .text-secondary {
+                font-size: 10px;
+            }
+        }
 
         .info {
             margin-top: 20px;
