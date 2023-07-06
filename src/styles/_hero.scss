@@ -8,17 +8,18 @@
 
     @media (max-width: 767px) {
         padding: 14vw 2vw;
-        height: 30vh;
+        height: 38vh;
         margin-top: 100px;
     }
 
     &__content {
 
         @media (max-width: 767px) {
-            max-width: 180px;
+            max-width: 300px;
+            margin-top: 50px;
 
             .text-secondary {
-                font-size: 10px;
+                font-size: 11px;
             }
         }
 

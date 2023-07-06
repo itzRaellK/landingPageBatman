@@ -18,10 +18,6 @@
 body {
     background-color: variables.$backgroundPrimaryColor;
     overflow-x: hidden;
-    
-    @media (max-width: 767px) {
-        overflow-x: hidden;
-    }
 }
 
 .button {

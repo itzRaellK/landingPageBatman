@@ -12,8 +12,9 @@
         grid-template-columns: 1fr 1fr 1fr;
 
         @media (max-width: 767px) {
-            max-width: 320px;
+            max-width: 500px;
             grid-template-columns: 1fr 1fr;
+            gap: 10px;
         }
 
         &__image {
@@ -23,7 +24,7 @@
             border-radius: 2px;
 
             @media (max-width: 767px) {
-                max-width: 150px;
+                max-width: 190px;
                 margin-bottom: 10px;
             }
         }

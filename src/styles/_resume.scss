@@ -12,7 +12,7 @@
         display: flex;
 
         @media (max-width: 767px) {
-            max-width: 310px;
+            max-width: 380px;
             width: 100%;
             display: block;
         }
@@ -21,8 +21,8 @@
             height: 500px;
 
             @media (max-width: 767px) {
-                max-width: 400px;
-                height: 380px;
+                max-width: 300px;
+                width: 100%;
                 margin-left: 50px;
             }
         }
@@ -33,7 +33,7 @@
 
             @media (max-width: 767px) {
                 padding: 5vw 0vw;
-                font-size: 10px;
+                font-size: 11px;
             }
         }
     }
