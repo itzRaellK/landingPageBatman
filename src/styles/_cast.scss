@@ -7,7 +7,7 @@
 
     @media (max-width: 767px) {
         padding: 20vw 2vw;
-        height: 115vh;
+        height: 120vh;
     }
 
     background-color: variables.$buttonPrimaryColor;
@@ -23,7 +23,7 @@
             max-width: 300px;
             width: 90%;
             grid-template-columns: 1fr 1fr;
-            gap: 12px;
+            gap: 50px;
         }
 
         &__actor {
