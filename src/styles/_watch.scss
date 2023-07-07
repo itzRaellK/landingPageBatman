@@ -9,6 +9,11 @@
         margin-bottom: 50px;
     }
 
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+
     &__online {
         background-image: url('../../dist/images/banner.jpg');
         width: 1300px;
@@ -20,6 +25,10 @@
 
         @media (max-width: 767px) {
             width: 375px;
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            height: 415px;
         }
         
 
@@ -39,6 +48,12 @@
                 margin: 27vw 2vw;
                 padding: 2px 2px;
                 font-size: 10px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1023px) {
+                margin: 44vw 2vw;
+                padding: 20px;
+                font-size: 25px;
             }
         }
     }

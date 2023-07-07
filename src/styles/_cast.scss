@@ -10,6 +10,13 @@
         height: 130vh;
     }
 
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 40px;
+        padding: 10vw 5vw;
+        width: 174.8vw;
+        height: 290vh;
+    }
+
     background-color: variables.$buttonPrimaryColor;
 
     &__actors {
@@ -26,6 +33,13 @@
             gap: 50px;
         }
 
+        @media (min-width: 768px) and (max-width: 1023px) {
+            max-width: 500px;
+            width: 90%;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+        }
+
         &__actor {
             margin-bottom: -120px;
             width: 200px;
@@ -37,6 +51,12 @@
                 height: 210px;
             }
 
+            @media (min-width: 768px) and (max-width: 1023px) {
+                margin-bottom: 50px;
+                width: 560px;
+                height: 780px;
+            }
+
             .images {
                 height: 100%;
                 width: 100%;
@@ -44,6 +64,10 @@
 
             .text-secondary {
                 text-align: center;
+
+                @media (min-width: 768px) and (max-width: 1023px) {
+                    font-size: 40px;
+                }
             }
         }
     }

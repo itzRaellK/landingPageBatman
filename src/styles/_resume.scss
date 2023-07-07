@@ -6,6 +6,11 @@
         margin: 50px 0;
     }
 
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
     &__content {
         max-width: 1200px;
         width: 100%;
@@ -17,6 +22,11 @@
             display: block;
         }
 
+        @media (min-width: 768px) and (max-width: 1023px) {
+            width: 500vw;
+            //border: 1px solid red;
+        }
+
         &__image {
             height: 500px;
 
@@ -24,6 +34,10 @@
                 max-width: 300px;
                 width: 100%;
                 margin-left: 30px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1023px) {
+                height: 760px;
             }
         }
 
@@ -34,6 +48,11 @@
             @media (max-width: 767px) {
                 padding: 5vw 1vw 0 0;
                 font-size: 11px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1023px) {
+                padding: 28vw 5vw;
+                font-size: 25px;
             }
         }
     }

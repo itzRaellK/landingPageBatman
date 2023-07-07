@@ -11,7 +11,13 @@
         display: block;
         max-width: 500px;
         width: 100%;
-        
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        max-width: 1000px;
+        width: 90%;
+        padding: 5vw 13vw;
+        display: flex;
     }
 
     &__logo {
@@ -23,6 +29,12 @@
             width: 100%;
             padding: 20vw 1vw;
         }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            max-width: 200px;
+            width: 100%;
+            position: absolute;
+        }
     }
 
     &__links {
@@ -33,6 +45,11 @@
             max-width: 120px;
             display: block;
             margin: 0 auto;
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            max-width: 10px;
+            margin: 29px 0 0 660px;
         }
 
         &__item {
@@ -47,6 +64,10 @@
 
             &:hover {
                 background-color: variables.$buttonSecondaryColor;
+            }
+
+            @media (min-width: 768px) and (max-width: 1023px) {
+                margin: 10px;
             }
         }
     }
